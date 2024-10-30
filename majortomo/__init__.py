@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .client import Client
-from .worker import Worker, WorkerRequestsIterator
-
-__all__ = ['Client', 'Worker', 'WorkerRequestsIterator']
+#from .client import Client
+#from .worker import Worker#, WorkerRequestsIterator
+#
+#__all__ = ['Client', 'Worker', 'WorkerRequestsIterator']
