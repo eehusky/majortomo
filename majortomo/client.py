@@ -165,7 +165,7 @@ class Client:
         self.connect()
         return self
 
-    async def __aexit__(self, exc_type:type[Exception], exc_val:Exception, exc_tb:TracebackType)->bool:
+    async def __aexit__(self, exc_type:type[BaseException]|None, exc_val:BaseException|None, exc_tb:TracebackType|None)->bool:
         self.close()
         return False
 
